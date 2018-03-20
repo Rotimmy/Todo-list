@@ -1,0 +1,40 @@
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-color: #ccc;
+}
+
+#todoList {
+  background-color: white;
+  max-width: 320px;
+  min-height: 420px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #999;
+  margin:auto;
+  margin-top: 120px;
+  padding: 30px 50px;
+}
+
+h3 {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+#button {
+  background-color: lightblue;
+  color: white;
+  border-color: lightblue;
+}
+
+#list li {
+  font-size: 17px;
+  font-family: 'Indie Flower', cursive;
+}
+
+::placeholder {
+  color: #dddddd!important;
+}
+
+.strike {
+  text-decoration: line-through;
+  color:#ccc!important;
+}
